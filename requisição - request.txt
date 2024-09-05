@@ -1,0 +1,66 @@
+requisição - request
+resposta da requisição - response, reply, http rep
+
+cliente  -> request ->  servidor(backend) -> processar ->
+response -> cliente
+
+http https (secure)
+
+GET - Obter algo
+POST - Criar algo
+PUT - Atualizar um algo existente
+PATCH - Atualizar um algo existente
+DELETE - Deletar algo
+
+http://blabloa.com/alunos
+
+headers - cabeçalhos : 
+    authorization: blabejhehfuheu9fhw9uihfihf,
+    navegador: chrome
+
+
+body - corpo da req, conteúdo : 
+    nome
+    idade
+    data de nascimento
+    sexo
+
+
+URL
+
+https://www.google.com/googledrive
+https://google.com/googledrive?busca=tcc&pagina=2
+
+
+Protocolos:
+http
+https
+ws (websocket)
+mysql
+mongodb
+
+Dominio:
+qualquer coisa
+
+extensão do dominio:
+.com
+.net
+.ia
+.io
+.br
+
+subdominio:
+qualquer coisa, porém vem de um dominio
+
+
+Parametros: 
+De rota
+De busca
+
+HTTP STATUS CODES
+
+100 - 199 = conexão/informação
+200 - 299 = sucesso
+300 - 399 = redirecionamento
+400 - 499 = erro do cliente
+500 - 599 = erro do servidor
