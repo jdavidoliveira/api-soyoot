@@ -125,6 +125,6 @@ app.post("/login", async (request, reply) => {
     .send({ message: "Login efetuado com sucesso!", token: tokenJWT })
 })
 
-app.listen({ port: 3333 }).then(() => {
+app.listen({ port: env.PORT, host: env.HOST }).then(() => {
   console.log("Server is running!")
 })

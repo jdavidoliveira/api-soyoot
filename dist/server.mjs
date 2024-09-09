@@ -12,7 +12,8 @@ import { z } from "zod";
 var envSchema = z.object({
   DATABASE_URL: z.string().url(),
   PORT: z.coerce.number().default(3333),
-  SECRET: z.string()
+  SECRET: z.string(),
+  HOST: z.coerce.string().default("0.0.0.0")
 });
 var env = envSchema.parse(process.env);
 
