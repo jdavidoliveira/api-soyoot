@@ -16,3 +16,11 @@ model User {
 
   @@map("user")
 }
+
+model Empresa {
+  id       String @id @default(uuid())
+  telefone String
+  email    String @unique
+  cnpj     String @unique
+  nome     String
+}
